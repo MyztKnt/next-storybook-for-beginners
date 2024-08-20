@@ -6,7 +6,7 @@ import { Box, Button, Grid, TextField, Typography } from '@mui/material';
 import Image from 'next/image';
 import { useFormState } from 'react-dom';
 
-import { loginAction } from 'lib/actions/auth';
+import { type loginAction } from 'lib/actions/auth';
 import { validation } from 'lib/validations/auth';
 
 export default function Login({ onSubmit }: { onSubmit: typeof loginAction }) {
